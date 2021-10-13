@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #B27373;
+  background-color: #A66B6B;
   color: white;
 }
 
 .header {
-  background-color: #B27373;
+  background-color: #A66B6B;
   color: white;
 }
 
@@ -18,7 +18,7 @@
 
 .main {
   /* background-color: #646469; */
-  background: rgba(75, 92, 99, 0.1)
+  background: rgba(75, 92, 99, 0.05)
 }
 
 .card-link {
@@ -35,6 +35,10 @@
 
 .smalltext {
   font-size: 15px;
+}
+
+.list-group-item {
+  background: rgba(75, 92, 99, 0.1)
 }
 
 
