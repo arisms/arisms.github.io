@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Aris Malapaschas, PhD</title>
+
+
+  </head>
+
+  <body>
+
+<!-- **************** NAVBAR **************** -->
+  <div class="container-fluid header pt-2 pb-1">
+    <h1 class="display-5">Aris Malapaschas</h1>
+    <h5>Human-Computer Interaction Researcher</h5>
+  </div>
+
+  <nav class="navbar navbar-expand-sm pt-0 m-0">
+    <ul class="navbar-nav ml-auto pr-2">
+      <li class="nav-item">
+        <a class="nav-link nav-link2 py-0" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link2 py-0 nav-link-active" href="./uxresearch.html">UX Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link2 py-0" href="./about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+<!-- **************** NAVBAR **************** -->
+
+
+<div class="container-fluid main">
+  <div class="container p-5">
+
+  <!-- **************** ACCORDION 1 **************** -->
+    <div class="container pb-2">
+      <h2>Voice Assistants for People with Acquired Brain Injury</h2>
+    </div>
+
+    <div id="accordion1" class="px-2">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <b>1. Effects of Acquired Brain Injury and the Use of External Aids</b>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse  show" data-parent="#accordion1">
+          <div class="card-body p-2">
+
+
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#overview11" role="tab" data-toggle="tab">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#methods11" role="tab" data-toggle="tab">Methods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#results11" role="tab" data-toggle="tab">Results</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#graphs11" role="tab" data-toggle="tab">Graphs & Charts</a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="container p-0">
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active p-3" id="overview11">
+                  <p>
+                    Acquired Brain Injury (<b>ABI</b>) causes a wide range of cognitive and physical impairments, which can affect the person’s ability to perform everyday tasks, and reduce their independence. The use of external aids (both paper-based and technological tools) can improve everyday functioning and facilitate the rehabilitation process, however research shows the existence of several barriers that can prevent their uptake and efficient use.
+                  </p>
+                  <p>
+                    A set of requirements capturing studies were conducted to identify the situations where there is a need for technological aids and what would their intended purpose be, and to further examine the common cognitive effects of ABI and how how these affect the usability of existing external aids. These studies include an online survey for people with ABI (n=99), gathering general information about the experience of brain injury and the use of technological aids, and a group interview with neuropsychologists to acquire additional details about the effects of ABI, current neuropsychological rehabilitation methods, and to gather expert feedback on the design of assistive technologies.
+                  </p>
+                  A detailed report of both studies can be found <a href="2021malapaschasphd.pdf#page=62" target="_blank">here.</a>
+                </div>
+                <div role="tabpanel" class="tab-pane fade p-3" id="methods11">
+                  <h5>Study 1 - Online Survey</h5>
+                  <p>99 brain injury survivors from different English speaking countries participated in the survey. The questionnaire consisted of six sections covering the following topics: 1) demographic information; 2) Memory performance; 3) Executive function; 4) Motivation and activeness; 5) Rehabilitation, and 6) Use of external aids (paper-based tools, electronic devices with a screen, and Voice Assistants). 5-point Likert scales were used to indicate the frequency of everyday issues resulting from the effects of brain injury, the frequency of use of the different types of external aids and the participants’ subjective evaluation of their effectiveness. Non-parametric statistical tests were used to investigate the correlation between answers to different questions of the survey, and to examine the difference between subgroups within the sample.</p>
+                  <p>Issues related to poor prospective memory, and problems with organisation, scheduling and decision making were the most common among participants. High frequency of occurrence of such issues was associated with how mentally demanding participants found external aids. More information is needed, however, to determine specifically how cognitive impairments can impact usability. Although the majority of participants reported using at least one type of aid frequently, many reported having to rely on other people to carry out everyday tasks, indicating room for improved design of external aids. Nevertheless, the large number of participants reporting being satisfied from external aids and regular use of technology showed a positive predisposition towards assistive technologies and confirms their beneficial impact. The use of Voice Assistants was not common among participants of the survey compared to the other two types of cognitive aids.</p>
+                  <h5>Study 2 - Group Interview with neuropsychologists</h5>
+                  <p>The participants were 7 neuropsychologists who had been working for at least 6 years at a rehabilitation centre for brain injury survivors. The interview was conducted in a semi- structured way, with questions evolving around the effects of ABI, methods of neuropsychological rehabilitation, and the design of assistive technologies. Inductive thematic analysis was used to analyse the recorded data, producing the following themes: 1) The need for prompting; 2) Family involvement; 3) Social participation, and 4) Personalisation and adaptivity.</p>
+                </div>
+                <div role="tabpanel" class="tab-pane fade p-3" id="results11">
+                  <p>The results of these two studies were analysed to create a set of use cases and a set of design characteristics for Assistive Technologies for people with Acquired Brain Injury:</p>
+                  <h5>Use Cases of Assistive Technologies for People with ABI</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-secondary">1. Support impaired cognitive functions such as memory, organisation, initiation and motivation through timely cues to prompt action.</li>
+                    <li class="list-group-item list-group-item-secondary">2. Increase awareness of inappropriate behaviour through regular prompting.</li>
+                    <li class="list-group-item list-group-item-secondary">3. Facilitate communication between family members/carers and people with ABI to improve support and reduce conflicts.</li>
+                    <li class="list-group-item list-group-item-secondary">4. Facilitate collaboration between family members/carers and therapists to improve mon- itoring, assessment and support.</li>
+                    <li class="list-group-item list-group-item-secondary">5. Support engagement to the rehabilitation process by increasing motivation through goal completion.</li>
+                    <li class="list-group-item list-group-item-secondary">6. Increase activeness and participation in social activities.</li>
+                    <li class="list-group-item list-group-item-secondary">7. Facilitate task completion through suitable guidance, and by supporting concentration and attention.</li>
+                  </ul>
+                  <br>
+                  <h5>Design Characteristics of Assistive Technologies for People with ABI</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-secondary"><b>Personalisable</b>: Offer customisation to support users with different levels of impairment, cognitive capabilities and rehabilitation goals.</li>
+                    <li class="list-group-item list-group-item-secondary"><b>Adaptive</b>: Automatically adjust the content of prompting based on the context and the user’s behaviour./li>
+                    <li class="list-group-item list-group-item-secondary"><b>Trustworthy</b>: Provide support in a friendly and intimate manner that appeals to the individual and inspires trust.</li>
+                    <li class="list-group-item list-group-item-secondary"><b>Discrete</b>: Provide efficient prompting in a discrete manner that avoids unwanted attention and social embarrassment.</li>
+                    <li class="list-group-item list-group-item-secondary"><b>Rewarding</b>: Provide a goal-oriented sense of achievement and positive reinforce- ment to increase motivation.</li>
+                    <li class="list-group-item list-group-item-secondary"><b>Simple</b>: Use concise and straightforward interaction to support users with lim- ited cognitive capacity.</li>
+                    <li class="list-group-item list-group-item-secondary"><b>Autonomous</b>: Provide timely support without relying on the user’s input and initiative.
+</li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade pt-3" id="graphs11">
+
+
+                  <div class="container p-3">
+                    <div class="row">
+                      <div class="col-sm">
+                        <a href="./images/study1/chart1-memory.png" class="pop" target="_blank">
+                          <img src="images/study1/chart1-memory.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/chart2-execfunc.png" class="pop" target="_blank">
+                          <img src="images/study1/chart2-execfunc.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/chart3-active.png" class="pop" target="_blank">
+                          <img src="images/study1/chart3-active.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/table1.png" class="pop" target="_blank">
+                          <img src="images/study1/table1.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row pt-3">
+                      <div class="col-sm">
+                        <a href="./images/study1/table3.png" class="pop" target="_blank">
+                          <img src="images/study1/table3.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/chart4-effort.png" class="pop" target="_blank">
+                          <img src="images/study1/chart4-effort.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/chart5-vas.png" class="pop" target="_blank">
+                          <img src="images/study1/chart5-vas.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                      <div class="col-sm">
+                        <a href="./images/study1/chart6-effort.png" class="pop" target="_blank">
+                          <img src="images/study1/chart6-effort.png" class="img-thumbnail hover-shadow" style="width: 400px;">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <b>2. Usability of Voice Assistants for People with Acquired Brain Injury</b>
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion1">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <b>3. Designing a Voice Assistant-based Prompting System</b>
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion1">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br><br>
+    <!-- **************** ACCORDION 2 **************** -->
+    <div class="container pb-2">
+      <h2>Technology-mediated Co-located Interaction</h2>
+    </div>
+
+    <div id="accordion2" class="px-2">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseFour">
+            <b>1. A Proximity-Based Social Application Aiming to Encourage Interaction between Nearby People</b>
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion2">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+            <b>2. Design and Evaluation of a Multi-Player Mobile Game for Icebreaking Activities</b>
+          </a>
+        </div>
+        <div id="collapseFive" class="collapse" data-parent="#accordion2">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+            <b>3. Increasing Collocated People’s Awareness of the Mobile User’s Activities</b>
+          </a>
+        </div>
+        <div id="collapseSix" class="collapse" data-parent="#accordion2">
+          <div class="card-body">
+            Lorem ipsum..
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ************************ FOOTER ************************ -->
+  <div class="container-fluid header pt-2 pb-2">
+    <div class="row">
+      <div class="col-sm"></div>
+      <div class="col-sm"></div>
+      <div class="col-sm"></div>
+      <div class="col-sm float-right">
+        <div class="clearfix pr-4">
+          <span class="float-right">
+            <a href="mailto:aris.malapaschas@gmail.com" target="_blank" class="pr-1">
+              <img src="./images/Mail.png" alt="Send Email" width="30px;">
+            </a>
+            <a href="https://www.linkedin.com/in/aris-malapaschas/" target="_blank" class="pr-1">
+              <img src="./images/Linkedin.png" alt="Linked In" width="30px;">
+            </a>
+            <a href="https://twitter.com/ArisMalapaschas?s=20" target="_blank" class="pr-1">
+              <img src="./images/Twitter.png" alt="Twitter" width="30px;">
+            </a>
+            <a href="https://scholar.google.com/citations?user=uiIm2AIAAAAJ&hl=en" target="_blank" class="pr-1">
+              <img src="./images/Scholar.png" alt="Google Scholar" width="30px;">
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ************************ FOOTER ************************ -->
+
+
+
+  </body>
+
+
+
+</html>
